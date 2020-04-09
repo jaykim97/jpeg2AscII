@@ -302,7 +302,8 @@ def simpleRev(i):
     return c
 
 #read image
-img = cv2.imread('soojin.jpg')
+name = input("Enter image to process: ")
+img = cv2.imread(name)
 #image to gray 
 img_gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
 
